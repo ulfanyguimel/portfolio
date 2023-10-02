@@ -57,6 +57,13 @@ Student ID: 301268770
             <textarea id="message" name="message"></textarea>
 
             <input type="submit" value="Submit">
+            <script>
+                // JavaScript to redirect to the home page when the form is submitted
+                document.querySelector('form').addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevent the default form submission
+                    window.location.href = '/';
+                });
+            </script>
         </form>
     </div>
     <footer>
