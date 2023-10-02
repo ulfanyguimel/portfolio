@@ -1,0 +1,203 @@
+/*
+
+File Name:  style.css
+Author:     Ulfany Furcal
+Date:       10-01-2023
+Student ID: 301268770
+
+*/
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  color: #555;
+  font-size: 24px;
+}
+
+p {
+  color: #777;
+  font-size: 18px;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+  transform: scale(1.1);
+  /* Add a scale effect on hover */
+}
+
+z .welcome-message {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+
+.mission-statement {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #e65c00;
+  transform: translateY(-5px);
+  /* Add a vertical translation on hover */
+}
+
+.about-image {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-paragraph {
+  text-align: center;
+  font-size: 18px;
+}
+
+.project {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project img:hover {
+  transform: scale(1.1);
+}
+
+.service {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  /* Add a vertical translation on hover */
+}
+
+/* Contact Me Page */
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #e65c00;
+  transform: translateY(-5px);
+  /* Add a vertical translation on hover */
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+
+File Name:  about.ejs
+Author:     Ulfany Furcal
+Date:       10-01-2023
+Student ID: 301268770
+
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/images/logo.png" height="100" width="100" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Contact Me</h1>
+
+        <div class="contact-info">
+            <p>Email: priyanshup2011@gmail.com</p>
+            <p>Contact Number: +1 437 518 6948</p>
+        </div>
+
+        <form action="/submit" method="post">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p>© Copyright Priyanshu Pandya - 301208909 - COMP229 - Summer 23</p>
+    </footer>
+</body>
+
+</html>
